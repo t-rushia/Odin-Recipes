@@ -13,6 +13,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(img/background.jpg);
   background-position: center;
+  background-attachment: fixed;
 }
 
 .header {
@@ -81,4 +82,46 @@ body {
 .text-container p {
   font-size: 20px;
   text-shadow: 0 0 10px black;
+}
+
+.recipe-container {
+  background: white;
+  text-align: center;
+  margin-top: 340px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.recipe-container h3 {
+  margin: 20px 0 20px 0;
+  font-size: 48px;
+  color: #eea47f;
+  text-shadow: 0 0 10px black;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.card button {
+  height: 250px;
+  width: 250px;
+  background: black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: ease 0.4s all 0s;
+}
+
+.card button:hover {
+  box-shadow: 0 0 10px #eea47f;
+}
+
+.card button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
 }

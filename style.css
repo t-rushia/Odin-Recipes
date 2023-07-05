@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -124,4 +128,16 @@ body {
   text-decoration: none;
   font-size: 20px;
   color: #fff;
+}
+
+.footer {
+  margin-top: 50px;
+  background: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  padding: 20px 0;
 }
